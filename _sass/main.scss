@@ -1,24 +1,25 @@
 /* Imports */
 
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
 
 /* Variables */
 
 $small-screen: 48em !default;
 $medium-screen: 62em !default;
 $large-screen: 75em !default;
-$font-family: "Raleway", sans-serif;
-$font-family-numbers: "Josefin Sans", sans-serif;
+$font-family: "Lato", sans-serif;
+$font-family-title: "Allerta Stencil", sans-serif;
+$font-family-numbers: "Lato", sans-serif;
 $font-size-base: 1rem !default;
 $font-size-h1: 2rem !default;
 $font-weight-strong: 600;
-$text-color: #fff !default;
-$bg-color: rgba(43, 45, 47, 1);
+$text-color: #edebeb !default;
+$bg-color: rgba(0, 46, 5, 1);
 $card-bg-color: linear-gradient(
   145deg,
-  rgba(115, 115, 115, 0.15) 15%,
-  rgba(43, 45, 47, 1) 80%
+  rgba(63, 112, 69, 0.15) 15%,
+  rgba(0, 46, 5, 1) 80%
 );
 $primary-color: #ff073a;
 
@@ -42,12 +43,21 @@ body {
 
 h1 {
   font-size: $font-size-h1;
+  font-family: $font-family-title;
+  font-weight: $font-weight-strong;
+  line-height: 2rem;
+}
+
+h2 {
+  font-size: $font-size-h1;
+  font-family: $font-family-title;
   font-weight: $font-weight-strong;
   line-height: 2rem;
 }
 
 p {
   word-spacing: 0.1rem;
+  font-weight: 300;
 }
 
 a {
@@ -102,7 +112,7 @@ a {
 
 .highlight-title {
   color: $primary-color;
-  text-shadow: 0.25rem 0.25rem 0.25rem $primary-color;
+  text-shadow: 0.2rem 0.2rem 0.2rem #96001e;
   font-size: 5rem;
 }
 
@@ -168,7 +178,7 @@ a {
     rgba(100, 100, 105, 0.15) 15%,
     rgba(33, 33, 33, 0.4) 80%
   );
-  box-shadow: -4px -3px 2px 0 rgba(250, 250, 250, 0.13),
+  box-shadow: -4px -3px 2px 0 rgba(0, 77, 13, 0.13),
     4px 4px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
@@ -178,18 +188,18 @@ a {
     rgba(20, 20, 20, 0.4) 10%,
     rgba(115, 115, 115, 0.15) 80%
   );
-  box-shadow: 1px 1px 2px 0 rgba(210, 210, 210, 0.4),
+  box-shadow: 1px 1px 2px 0 rgba(0, 77, 13, 0.4),
     -1px -1px 2px rgba(0, 0, 0, 0.4), inset 3px 3px 2px 0 rgba(0, 0, 0, 0.4),
     inset -1px -2px 2px rgba(210, 210, 210, 0.4);
 }
 
 .neumorphism-card {
   box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 1),
-    inset -2px -2px 4px rgba(99, 99, 99, 1);
+    inset -2px -2px 4px rgba(0, 77, 13, 1);
 }
 
 .neumorphism-card-big {
-  box-shadow: 5px 5px 4px #161718, -5px -5px 4px #404346;
+  box-shadow: 5px 5px 4px #161718, -5px -5px 4px #004d0d;
 }
 
 /* Preloader */
@@ -732,6 +742,10 @@ a {
 
   .landing-title h1 {
     font-size: 3rem;
+  }
+
+  .landing-title h2 {
+    font-size: 2.3rem;
   }
 
   .landing-icons .social-link {
