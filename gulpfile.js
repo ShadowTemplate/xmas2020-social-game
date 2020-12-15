@@ -50,6 +50,16 @@ function scripts() {
     .pipe(gulp.dest('assets/js'));
 }
 
+function loginScripts() {
+    return gulp
+        .src([ '_js/login.js' ])
+        .pipe(rename('login.min.js'))
+        .pipe(uglify())
+        .pipe(gulp.dest('_site/assets/js'))
+        .pipe(browserSync.reload({ stream: true }))
+        .pipe(gulp.dest('assets/js'));
+}
+
 function scriptsVendors() {
   return gulp
     .src([ '_js/vendors/*.js' ])
@@ -126,7 +136,7 @@ function watch() {
   gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
 }
 
-var compile = gulp.parallel(styles, stylesVendors, scripts, scriptsVendors);
+var compile = gulp.parallel(styles, stylesVendors, scripts, loginScripts, scriptsVendors);
 var serve = gulp.series(compile, jekyll, browserSyncServe);
 var watch = gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
 
