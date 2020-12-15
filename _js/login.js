@@ -1,22 +1,23 @@
 $(document).ready(function() {
-  // console.log('login.js');
   var paragraph = document.getElementById("welcome-message");
-  var queryString = window.location.search;
-  var urlParams = new URLSearchParams(queryString);
-  var user = urlParams.get('user');
+  var user = getCurrentUser();
   paragraph.textContent += user;
   paragraph.textContent += "!";
 
-  $("#login-button-user").click(function() {
-    var psw = getPassword(user)
-    if($("input[name='pwd']").val() === psw){
-      location.href = getGamePage(user);
-    } else{
-      alert("Ops! Parola d'ordine sbagliata.");
+  $("#login-button-user").click(checkUserPassword);
+
+  $("#input-login-user").on('keyup', function (e) {
+    if (e.key === 'Enter' || e.keyCode === 13) {
+      checkUserPassword();
     }
-    return true;
   });
 });
+
+function getCurrentUser() {
+  var queryString = window.location.search;
+  var urlParams = new URLSearchParams(queryString);
+  return urlParams.get('user');
+}
 
 function getPassword(user) {
   // TODO CHECK MARIA ELENA
@@ -36,4 +37,15 @@ function getGamePage(user) {
     default:
       return 'none'
   }
+}
+
+function checkUserPassword() {
+  var user = getCurrentUser()
+  var psw = getPassword(user)
+  if($("input[name='pwd']").val() === psw){
+    location.href = getGamePage(user);
+  } else{
+    alert("Ops! Parola d'ordine sbagliata.");
+  }
+  return true;
 }

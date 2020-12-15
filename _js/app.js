@@ -36,13 +36,12 @@ $(document).ready(function() {
 
   randomizeOrder();
 
-  $("#login-button-game").click(function(){
-    if($("input[name='pwd']").val().startsWith('welcomeby')){
-      location.href = "game.html";
-    } else{
-      alert("Mi arrivano notizie che qualcuno vorrebbe preparare la festa di Natale.\nMandiamo i Carabinieri. Ma li mandiamo con i lanciafiamme.");
+  $("#login-button-game").click(checkGamePassword);
+
+  $("#input-login-game").on('keyup', function (e) {
+    if (e.key === 'Enter' || e.keyCode === 13) {
+      checkGamePassword();
     }
-    return true;
   });
 
 });
@@ -130,4 +129,13 @@ function randomizeOrder() {
     frag.appendChild(divs[Math.floor(Math.random() * divs.length)]);
   }
   parent.appendChild(frag);
+}
+
+function checkGamePassword() {
+  if($("input[name='pwd']").val().startsWith('welcomeby')) {
+    location.href = "game.html";
+  } else {
+    alert("Mi arrivano notizie che qualcuno vorrebbe preparare la festa di Natale.\nMandiamo i Carabinieri. Ma li mandiamo con i lanciafiamme.");
+  }
+  return true;
 }
