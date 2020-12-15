@@ -28,6 +28,16 @@ function styles() {
     .pipe(gulp.dest('assets/css'));
 }
 
+function stylesPuzzle() {
+    return gulp
+        .src([ '_sass/puzzle.css' ])
+        .pipe(rename('puzzle.min.css'))
+        // .pipe(cssnano())
+        .pipe(gulp.dest('_site/assets/css/'))
+        .pipe(browserSync.reload({ stream: true }))
+        .pipe(gulp.dest('assets/css'));
+}
+
 function stylesVendors() {
   return gulp
     .src([ '_sass/vendors/*.css' ])
@@ -55,6 +65,16 @@ function loginScripts() {
         .src([ '_js/login.js' ])
         .pipe(rename('login.min.js'))
         .pipe(uglify())
+        .pipe(gulp.dest('_site/assets/js'))
+        .pipe(browserSync.reload({ stream: true }))
+        .pipe(gulp.dest('assets/js'));
+}
+
+function puzzleScripts() {
+    return gulp
+        .src([ '_js/puzzle.js' ])
+        .pipe(rename('puzzle.min.js'))
+        // .pipe(uglify())
         .pipe(gulp.dest('_site/assets/js'))
         .pipe(browserSync.reload({ stream: true }))
         .pipe(gulp.dest('assets/js'));
@@ -136,7 +156,7 @@ function watch() {
   gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
 }
 
-var compile = gulp.parallel(styles, stylesVendors, scripts, loginScripts, scriptsVendors);
+var compile = gulp.parallel(styles, stylesPuzzle, stylesVendors, scripts, loginScripts, puzzleScripts, scriptsVendors);
 var serve = gulp.series(compile, jekyll, browserSyncServe);
 var watch = gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
 

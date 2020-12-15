@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/favicon/apple-touch-icon.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon/favicon-32x32.png" | prepend: site.baseurl }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon/favicon-16x16.png" | prepend: site.baseurl }}">
+  <link rel="manifest" href="{{ "/assets/favicon/site.webmanifest" | prepend: site.baseurl }}">
+
+  <link rel="stylesheet" href="{{ "/assets/css/puzzle.min.css" | prepend: site.baseurl }}">
+<!--  <link rel="stylesheet" href="{{ "/assets/css/vendors.min.css" | prepend: site.baseurl }}">-->
+
+  <script src="{{ "/assets/js/vendors.min.js" | prepend: site.baseurl }}"></script>
+  <script src="{{ "/assets/js/puzzle.min.js" | prepend: site.baseurl }}"></script>
+</head>
+
+<body>
+  <div class="puzzle">
+    <div class="heading">
+          <span>
+              <sub>★</sub> <sup>☆</sup> <sub>★</sub> <sup>☆</sup> <sub>★</sub> <sup>☆</sup> <sub>★</sub>
+          </span>
+      <h2>Simpleweb</h2>
+      <span>
+              <sup>★</sup> <sub>☆</sub> <sup>★</sup> <sub>☆</sub> <sup>★</sup> <sub>☆</sub> <sup>★</sup>
+          </span>
+    </div>
+<!--    <div class="answer"></div>-->
+    <div class="grid">
+      <button class="tile tile--1" style="--area:A"></button>
+      <button class="tile tile--2" style="--area:B"></button>
+      <button class="tile tile--3" style="--area:C"></button>
+      <button class="tile tile--4" style="--area:D"></button>
+      <button class="tile tile--5" style="--area:E"></button>
+      <button class="tile tile--6" style="--area:F"></button>
+      <button class="tile tile--7" style="--area:G"></button>
+      <button class="tile tile--8" style="--area:H"></button>
+      <div class="tile tile--empty" style="--area:I"></div>
+    </div>
+  </div>
+</body>
+</html>
