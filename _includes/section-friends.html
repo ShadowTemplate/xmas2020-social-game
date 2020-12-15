@@ -9,8 +9,10 @@
 <div id="skills">
   {% for friend in site.data.skills-friends %}
     <div skill-type="language" data-aos="zoom-in">
+      <a href="login.html?user={{friend.name}}">
       <img src="assets/img/avatar/{{friend.avatar}}" width="200px" height="200px">
       <figcaption class="medium-caption">{{friend.name}}</figcaption>
+      </a>
     </div>
   {% endfor %}
 </div>

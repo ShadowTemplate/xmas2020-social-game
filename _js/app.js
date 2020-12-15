@@ -35,6 +35,16 @@ $(document).ready(function() {
   });
 
   randomizeOrder();
+
+  $("#login-button-game").click(function(){
+    if($("input[name='pwd']").val().startsWith('welcomeby')){
+      location.href = "game.html";
+    } else{
+      alert("Mi arrivano notizie che qualcuno vorrebbe preparare la festa di Natale.\nMandiamo i Carabinieri. Ma li mandiamo con i lanciafiamme.");
+    }
+    return true;
+  });
+
 });
 
 /* FUNCTIONS */
