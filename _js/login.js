@@ -13,37 +13,22 @@ $(document).ready(function() {
   });
 });
 
-function getCurrentUser() {
-  var queryString = window.location.search;
-  var urlParams = new URLSearchParams(queryString);
-  return urlParams.get('user');
-}
-
 function getPassword(user) {
   // TODO CHECK MARIA ELENA
   switch(user) {
     case 'Stefano':
       return 'longo'
     default:
-      return 'none'
-  }
-}
-
-function getGamePage(user) {
-  // TODO CHECK MARIA ELENA
-  switch(user) {
-    case 'Stefano':
-      return 'stelong.html'
-    default:
-      return 'none'
+      return 'magimagia'
   }
 }
 
 function checkUserPassword() {
-  var user = getCurrentUser()
-  var psw = getPassword(user)
+  var user = getCurrentUser();
+  var song = getSong(user);
+  var psw = getPassword(user);
   if($("input[name='pwd']").val() === psw){
-    location.href = getGamePage(user);
+    location.href = 'sarabanda.html?user=' + user + '&song=' + song;
   } else{
     alert("Ops! Parola d'ordine sbagliata.");
   }

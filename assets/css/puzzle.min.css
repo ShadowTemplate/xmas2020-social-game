@@ -71,7 +71,7 @@ p {
   padding-bottom: 100%;
   grid-area: var(--area, auto);
   border: none;
-  background: url(https://source.unsplash.com/900x900/?christmas,holiday,festive);
+  background: url('./../img/puzzle.jpeg');
   background-size: 300%;
 }
 
