@@ -16,12 +16,21 @@ function getSong(user) {
     case 'Stefano':
       return '1.mp3'
     default:
-      return 'none'
+      return 'Ops! Qualcosa non va. Per favore contattaci con un messaggio.'
+  }
+}
+
+function getCurrentVerse(user) {
+  // TODO CHECK MARIA ELENA
+  switch(user) {
+    case 'Stefano':
+      return 'Have yourself a merry little Christmas'
+    default:
+      return 'Ops! Qualcosa non va. Per favore contattaci con un messaggio.'
   }
 }
 
 function getSongTitles(song) {
-  // TODO CHECK MARIA ELENA
   switch(song) {
     case '1.mp3':
       return ['in da club', 'boulevard of broken dreams']
@@ -29,7 +38,9 @@ function getSongTitles(song) {
       return ['una vita da mediano', 'boulevard of broken dreams']
     case '3.mp3':
       return ['mi fido di te', "you're beautiful"]
+    case '4.mp3':
+      return ['vieni con me', "cuore nero"]
     default:
-      return 'none'
+      return ['', '']
   }
 }

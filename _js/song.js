@@ -23,13 +23,7 @@ function checkSongs() {
   var song = getCurrentSong();
   var title1 = $("input[name='song1']").val().toLowerCase();
   var title2 = $("input[name='song2']").val().toLowerCase();
-  console.log(user);
-  console.log(song);
-  console.log(title1);
-  console.log(title2);
   var correctValues = getSongTitles(song);
-  console.log(correctValues[0]);
-  console.log(correctValues[1]);
   var found1 = title1 === correctValues[0] || title1 === correctValues[1];
   var found2 = title2 === correctValues[0] || title2 === correctValues[1];
   if (! found1 && ! found2) {
@@ -37,7 +31,7 @@ function checkSongs() {
   } else if (!found1 || !found2) {
     alert("1 su due, fuochino!");
   } else {
-    alert("2 su 2. WIN -> REDIRECT");
+    location.href = 'clip.html?user=' + user;
   }
 }
 

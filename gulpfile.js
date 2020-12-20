@@ -100,6 +100,16 @@ function puzzleScripts() {
         .pipe(gulp.dest('assets/js'));
 }
 
+function versesScripts() {
+    return gulp
+        .src([ '_js/verses.js' ])
+        .pipe(rename('verses.min.js'))
+        // .pipe(uglify())
+        .pipe(gulp.dest('_site/assets/js'))
+        .pipe(browserSync.reload({ stream: true }))
+        .pipe(gulp.dest('assets/js'));
+}
+
 function scriptsVendors() {
   return gulp
     .src([ '_js/vendors/*.js' ])
@@ -177,7 +187,7 @@ function watch() {
 }
 
 var compile = gulp.parallel(
-    styles, stylesPuzzle, stylesVendors, scripts, loginScripts, puzzleScripts, songScripts, scriptsVendors, sharedScripts
+    styles, stylesPuzzle, stylesVendors, scripts, loginScripts, puzzleScripts, versesScripts, songScripts, scriptsVendors, sharedScripts
 );
 var serve = gulp.series(compile, jekyll, browserSyncServe);
 var watch = gulp.parallel(watchData, watchMarkup, watchScripts, watchStyles);
