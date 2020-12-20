@@ -1,195 +1,255 @@
 - name: Adele
   picture: Adele.jpg
+  class: vip-show
 
 - name: Adele
   picture: Adele.jpg
-
-#- name: Alessandro Gassman
-#  picture: Alessandro Gassman.jpg
+  class: vip-show
 
 - name: Amy Winehouse
   picture: Amy Winehouse.jpg
+  class: vip-show
 
 - name: Angelina Jolie
   picture: Angelina Jolie.jpg
+  class: vip-show
 
 - name: Barack Obama
   picture: Barack Obama.jpg
+  class: vip-show
 
 - name: Ben Affleck
   picture: Ben Affleck.jpg
+  class: vip-show
 
 - name: Brad Pitt
   picture: Brad Pitt.jpg
+  class: vip-show
 
 - name: Britney Spears
   picture: Britney Spears.jpg
+  class: vip-show
 
 - name: Claudio Baglioni
   picture: Claudio Baglioni.jpg
+  class: vip-show
 
 - name: Cristiano Ronaldo
   picture: Cristiano Ronaldo.jpg
+  class: vip-show
 
 - name: Daniel Craig
   picture: Daniel Craig.jpg
+  class: vip-show
 
 - name: Daniel Radcliffe
   picture: Daniel Radcliffe.jpg
+  class: vip-show
 
 - name: David Beckham
   picture: David Beckham.jpg
+  class: vip-show
 
 - name: Diego Abatantuono
   picture: Diego Abatantuono.jpg
+  class: vip-show
 
 - name: Donald Trump
   picture: Donald Trump.jpg
+  class: vip-show
 
 - name: Drake
   picture: Drake.jpg
+  class: vip-show
 
 - name: Dwayne Johnson
   picture: Dwayne Johnson.jpg
+  class: vip-show
 
 - name: Ed Sheeran
   picture: Ed Sheeran.jpg
+  class: vip-show
 
 - name: Ellen DeGeneres
   picture: Ellen DeGeneres.jpg
+  class: vip-show
 
 - name: Eminem
   picture: Eminem.jpg
+  class: vip-show
 
 - name: Emma Watson
   picture: Emma Watson.jpg
+  class: vip-show
 
 - name: Fedez
   picture: Fedez.jpg
+  class: vip-show
 
 - name: Francesco Totti
   picture: Francesco Totti.jpg
+  class: vip-show
 
 - name: George Bush
   picture: George Bush.jpg
+  class: vip-show
 
 - name: George Clooney
   picture: George Clooney.jpg
+  class: vip-show
 
 - name: Gordon Ramsay
   picture: Gordon Ramsay.jpg
+  class: vip-show
 
 - name: Jackie Chan
   picture: Jackie Chan.jpg
+  class: vip-show
 
 - name: Jennifer Aniston
   picture: Jennifer Aniston.jpg
+  class: vip-show
 
 - name: Jennifer Lopez
   picture: Jennifer Lopez.jpg
+  class: vip-show
 
 - name: Jim Carrey
   picture: Jim Carrey.jpg
+  class: vip-show
 
-- name: J.K. Rowling
-  picture: J.K. Rowling.jpg
+- name: J. K. Rowling
+  picture: J. K. Rowling.jpg
+  class: vip-show
 
 - name: Johnny Depp
   picture: Johnny Depp.jpg
+  class: vip-show
 
 - name: Justin Bieber
   picture: Justin Bieber.jpg
+  class: vip-show
 
 - name: Kanye West
   picture: Kanye West.jpg
+  class: vip-show
 
 - name: Katy Perry
   picture: Katy Perry.jpg
+  class: vip-show
 
 - name: Kim Kardashian
   picture: Kim Kardashian.jpg
+  class: vip-show
 
 - name: Kurt Cobain
   picture: Kurt Cobain.jpg
+  class: vip-show
 
 - name: Kylie Jenner
   picture: Kylie Jenner.jpg
+  class: vip-show
 
 - name: Lady Gaga
   picture: Lady Gaga.jpg
+  class: vip-show
 
 - name: Leonardo DiCaprio
   picture: Leonardo DiCaprio.jpg
+  class: vip-show
 
 - name: Lionel Messi
   picture: Lionel Messi.jpg
+  class: vip-show
 
 - name: Luciano Ligabue
   picture: Luciano Ligabue.jpg
+  class: vip-show
 
 - name: Matt Damon
   picture: Matt Damon.jpg
+  class: vip-show
 
 - name: Michael Schumacher
   picture: Michael Schumacher.jpg
+  class: vip-show
 
 - name: Micheal Jackson
   picture: Micheal Jackson.jpg
+  class: vip-show
 
 - name: Mick Jagger
   picture: Mick Jagger.jpg
+  class: vip-show
 
 - name: Mika
   picture: Mika.jpg
+  class: vip-show
 
 - name: Nick Jonas
   picture: Nick Jonas.jpg
+  class: vip-show
 
 - name: Patrick Dempsey
   picture: Patrick Dempsey.jpg
+  class: vip-show
 
 - name: Paul McCartney
   picture: Paul McCartney.jpg
+  class: vip-show
 
 - name: P!nk
   picture: P!nk.jpg
+  class: vip-show
 
 - name: Queen Elizabeth II
   picture: Queen Elizabeth II.jpg
+  class: vip-show
 
 - name: Rihanna
   picture: Rihanna.jpg
+  class: vip-show
 
 - name: Robert Pattinson
   picture: Robert Pattinson.jpg
+  class: vip-show
 
 - name: Roger Federer
   picture: Roger Federer.jpg
+  class: vip-show
 
 - name: Selena Gomez
   picture: Selena Gomez.jpg
+  class: vip-show
 
 - name: Serena Williams
   picture: Serena Williams.jpg
+  class: vip-show
 
 - name: Silvio Berlusconi
   picture: Silvio Berlusconi.jpg
+  class: vip-show
 
 - name: Simon Cowell
   picture: Simon Cowell.jpg
+  class: vip-show
 
 - name: Steve Jobs
   picture: Steve Jobs.jpg
+  class: vip-show
 
 - name: Taylor Swift
   picture: Taylor Swift.jpg
+  class: vip-show
 
 - name: Tiger Woods
   picture: Tiger Woods.jpg
+  class: vip-show
 
 - name: Will Smith
   picture: Will Smith.jpg
+  class: vip-show
 
 - name: Zinedine Zidane
   picture: Zinedine Zidane.jpg
-
+  class: vip-show

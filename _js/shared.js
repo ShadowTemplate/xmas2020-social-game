@@ -40,6 +40,8 @@ function getSongTitles(song) {
       return ['mi fido di te', "you're beautiful"]
     case '4.mp3':
       return ['vieni con me', "cuore nero"]
+    case '5.mp3':
+      return ['alghero', "tanti auguri"]
     default:
       return ['', '']
   }
