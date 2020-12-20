@@ -2,10 +2,6 @@
   picture: Adele.jpg
   class: vip-show
 
-- name: Adele
-  picture: Adele.jpg
-  class: vip-show
-
 - name: Amy Winehouse
   picture: Amy Winehouse.jpg
   class: vip-show
@@ -14,8 +10,16 @@
   picture: Angelina Jolie.jpg
   class: vip-show
 
+- name: Babbo Natale
+  picture: Babbo Natale.jpg
+  class: vip-show
+
 - name: Barack Obama
   picture: Barack Obama.jpg
+  class: vip-show
+
+- name: Bart Simpson
+  picture: Bart Simpson.jpg
   class: vip-show
 
 - name: Ben Affleck
@@ -28,6 +32,10 @@
 
 - name: Britney Spears
   picture: Britney Spears.jpg
+  class: vip-show
+
+- name: Chris Hadfield
+  picture: Chris Hadfield.jpg
   class: vip-show
 
 - name: Claudio Baglioni
@@ -58,6 +66,10 @@
   picture: Donald Trump.jpg
   class: vip-show
 
+- name: Donkey Kong
+  picture: Donkey Kong.jpg
+  class: vip-show
+
 - name: Drake
   picture: Drake.jpg
   class: vip-show
@@ -72,6 +84,10 @@
 
 - name: Ellen DeGeneres
   picture: Ellen DeGeneres.jpg
+  class: vip-show
+
+- name: Elton John
+  picture: Elton John.jpg
   class: vip-show
 
 - name: Eminem
@@ -90,6 +106,22 @@
   picture: Francesco Totti.jpg
   class: vip-show
 
+- name: Fred Flintstone
+  picture: Fred Flintstone.jpg
+  class: vip-show
+
+- name: Frodo Baggins
+  picture: Frodo Baggins.jpg
+  class: vip-show
+
+- name: Garfield
+  picture: Garfield.jpg
+  class: vip-show
+
+- name: Garry Kasparov
+  picture: Garry Kasparov.jpg
+  class: vip-show
+
 - name: George Bush
   picture: George Bush.jpg
   class: vip-show
@@ -100,6 +132,10 @@
 
 - name: Gordon Ramsay
   picture: Gordon Ramsay.jpg
+  class: vip-show
+
+- name: Hulk Hogan
+  picture: Hulk Hogan.jpg
   class: vip-show
 
 - name: Jackie Chan
@@ -122,6 +158,10 @@
   picture: J. K. Rowling.jpg
   class: vip-show
 
+- name: Joe Bastianich
+  picture: Joe Bastianich.jpg
+  class: vip-show
+
 - name: Johnny Depp
   picture: Johnny Depp.jpg
   class: vip-show
@@ -136,6 +176,10 @@
 
 - name: Katy Perry
   picture: Katy Perry.jpg
+  class: vip-show
+
+- name: Kevin
+  picture: Kevin.jpg
   class: vip-show
 
 - name: Kim Kardashian
@@ -166,8 +210,20 @@
   picture: Luciano Ligabue.jpg
   class: vip-show
 
+- name: Madre Teresa
+  picture: Madre Teresa.jpg
+  class: vip-show
+
+- name: Mario
+  picture: Mario.jpg
+  class: vip-show
+
 - name: Matt Damon
   picture: Matt Damon.jpg
+  class: vip-show
+
+- name: Michael Phelps
+  picture: Michael Phelps.jpg
   class: vip-show
 
 - name: Michael Schumacher
@@ -186,8 +242,28 @@
   picture: Mika.jpg
   class: vip-show
 
+- name: Mr Bean
+  picture: Mr Bean.jpg
+  class: vip-show
+
+- name: Neil Armstrong
+  picture: Neil Armstrong.jpg
+  class: vip-show
+
+- name: Nelson Mandela
+  picture: Nelson Mandela.jpg
+  class: vip-show
+
 - name: Nick Jonas
   picture: Nick Jonas.jpg
+  class: vip-show
+
+- name: Oliver Hutton
+  picture: Oliver Hutton.jpg
+  class: vip-show
+
+- name: Oprah Winfrey
+  picture: Oprah Winfrey.jpg
   class: vip-show
 
 - name: Patrick Dempsey
@@ -216,6 +292,14 @@
 
 - name: Roger Federer
   picture: Roger Federer.jpg
+  class: vip-show
+
+- name: Salvador Dali'
+  picture: Salvador Dali'.jpg
+  class: vip-show
+
+- name: Sasha Grey
+  picture: Sasha Grey.jpg
   class: vip-show
 
 - name: Selena Gomez
