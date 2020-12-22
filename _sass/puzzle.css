@@ -1,3 +1,10 @@
+/* Imports */
+
+@import url("https://fonts.googleapis.com/css?family=Allerta+Stencil&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
+
+
 * {
   box-sizing: border-box;
 }
@@ -6,27 +13,28 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
-  background: #111;
+  background: #002e05;
   color: #fefefe;
-  font-family: 'Fontdiner Swanky', cursive;
+  font-family: Nunito, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 p {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Nunito, sans-serif;
+  font-size: 1.3em;
 }
 
 .puzzle {
-  background: linear-gradient(hsl(360, 98%, 36%), hsl(360, 92%, 42%)), url(https://www.toptal.com/designers/subtlepatterns/patterns/white_plaster.png);
+  background: linear-gradient(hsl(127, 100%, 9%), hsl(127, 92%, 12%)), url(https://www.toptal.com/designers/subtlepatterns/patterns/white_plaster.png);
   background-blend-mode: multiply;
   width: 90vw;
   max-width: 400px;
   box-shadow:
           0 .25em 1em 0 rgba(0,0,0,0.30),
-          inset .25em .25em 1em 0 hsl(360, 88%, 72%),
-          inset .15em .15em .2em 0 hsl(360, 88%, 72%),
-          inset -.25em -.25em 1em 0 hsl(360, 88%, 22%),
-          inset -.15em -.15em .2em 0 hsl(360, 88%, 2%);
+          inset .25em .25em 1em 0 hsl(127, 50%, 30%),
+          inset .15em .15em .2em 0 hsl(127, 50%, 30%),
+          inset -.25em -.25em 1em 0 hsl(127, 50%, 3%),
+          inset -.15em -.15em .2em 0 hsl(127, 88%, 2%);
   border-radius: 1.2em;
   padding: 1.4em;
   display: grid;
@@ -112,20 +120,22 @@ p {
 
 h2 {
   margin: 0;
-  font-size: 1.8em;
+  font-family: Nunito, sans-serif;
+  font-size: 1.4em;
 }
 
 .heading span {
   font-size: 1em;
   line-height: 2.4em;
+  align-content: center;
 }
 
 .heading {
   align-self: center;
-  grid-column-end: span 2;
+  grid-column-end: span 3;
   text-align: center;
-  text-shadow: 0 -1px 0 hsl(360, 90%, 26%);
-  transform: skew(-10deg) rotate(-6deg);
+  text-shadow: 0 -1px 0 hsl(127, 90%, 26%);
+  /* transform: skew(-10deg) rotate(-6deg); */
 }
 
 @keyframes popIn {

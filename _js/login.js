@@ -18,6 +18,44 @@ function getPassword(user) {
   switch(user) {
     case 'Stefano':
       return 'longo'
+    case 'Maria Elena':
+      return 'neuro'
+    case 'Alessandra':
+      return 'ernia'
+    case 'Francesca':
+      return 'annaghj'
+    case 'Marianna':
+      return 'bmw'
+    case 'Alessia':
+      return 'annaghj'
+    case 'Irene':
+      return 'unicorni'
+    case 'Marta':
+      return 'madonna'
+    case 'Rosanna':
+      return 'mattone'
+    case 'Roberto':
+      return 'brunori'
+    case 'Arianna':
+      return 'adoro'
+    case 'Sciortino':
+      return 'mostro'
+    case 'Carolina':
+      return 'danish'
+    case 'Giovanni':
+      return 'spinoza'
+    case 'Tommaso':
+      return 'oki'
+    case 'GabrieleD':
+      return 'unipol'
+    case 'Carlotta':
+      return 'belin'
+    case 'Nicolò':
+      return 'cicca'
+    case 'Miner':
+      return 'fatturare'
+    case 'Valentino':
+      return 'sonobello'
     default:
       return 'magimagia'
   }
