@@ -33,11 +33,29 @@
   {% include landing-page-game.html %}
   <div class="layout">
       <section class="card neumorphism-card-big">
-        {% include section-game-intro.html %}
+        <p class="description" data-aos="fade-down">
+          Uno di questi personaggi custodisce il segreto di questo strano Natale.
+        </p>
+
+        <p class="description" data-aos="fade-down">
+          Riuscirete, tutti insieme, a scoprire chi?
+        </p>
       </section>
+
       <section class="card neumorphism-card-big">
-        {% include section-vip.html %}
+        <h1 class="title">Indovina chi</h1>
+        <br>
+        <br>
+        <div id="skills">
+          {% for vip in site.data.vip %}
+          <div skill-type="language" data-aos="zoom-in" class="{{vip.class}}">
+            <img src="assets/img/GuessWho/{{vip.picture}}" width="150px" height="200px">
+            <figcaption class="small-caption">{{vip.name}}</figcaption>
+          </div>
+          {% endfor %}
+        </div>
       </section>
+
       <section class="card neumorphism-card-big">
         {% include section-timeline.html %}
       </section>

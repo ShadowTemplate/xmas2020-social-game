@@ -129,4 +129,67 @@ $(document).ready(function() {
 
     // Unlock and lock tiles
     unlockTiles(emptyTile.style.getPropertyValue("--area"));
+
+    var paragraph = document.getElementById("prize-paragraph");
+    var prize = getPrize(getCurrentUser());
+    paragraph.innerHTML += prize;
 });
+
+function getPrize(user) {
+    // TODO CHECK MARIA ELENA
+    switch(user) {
+        case 'Stefano':
+            return getHTMLPrize('todo')
+        case 'Maria Elena':
+            return getHTMLPrize('todo')
+        case 'Alessandra':
+            return getHTMLPrize('todo')
+        case 'Francesca':
+            return getHTMLPrize('todo')
+        case 'Marianna':
+            return getHTMLPrize('todo')
+        case 'Alessia':
+            return getHTMLPrize('todo')
+        case 'Irene':
+            return getHTMLPrize('todo')
+        case 'Marta':
+            return getHTMLPrize('todo')
+        case 'Rosanna':
+            return getHTMLPrize('todo')
+        case 'Roberto':
+            return getHTMLPrize('todo')
+        case 'Arianna':
+            return getHTMLPrize('todo')
+        case 'Sciortino':
+            return getHTMLPrize('todo')
+        case 'Carolina':
+            return getHTMLPrize('todo')
+        case 'Giovanni':
+            return getHTMLPrize('todo')
+        case 'Tommaso':
+            return getHTMLPrize('todo')
+        case 'GabrieleD':
+            return getHTMLPrize('todo')
+        case 'Carlotta':
+            return getHTMLPrize('todo')
+        case 'Nicolò':
+            return getHTMLPrize('todo')
+        case 'Miner':
+            return getHTMLPrize('todo')
+        case 'Valentino':
+            return getHTMLPrize('todo')
+        default:
+            return getHTMLPrize('todo')
+    }
+}
+
+function getHTMLPrize(prize) {
+    switch(prize) {
+        case 'todo':
+            return '<strong>MAGIA</strong>'
+        case 'FOO':
+            return ''
+        default:
+            return 'magimagia'
+    }
+}

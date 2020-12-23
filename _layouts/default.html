@@ -33,13 +33,53 @@
   {% include landing-page.html %}
   <div class="layout">
       <section class="card neumorphism-card-big">
-        {% include section-aboutme.html %}
+        <p class="description" data-aos="fade-down">
+          Lo sappiamo, c’è un pensiero che non ti lascia in pace. Notte e giorno, giorno e notte, solo un chiodo fisso per cui non riesci a trovare pace: come sopravviverai a questo Natale senza il tombolone con gli amici, gli amici degli amici, i nemici dei parenti e i parenti degli amici?
+        </p>
+
+        <p class="description" data-aos="fade-down">
+          Ebbene, siamo qui per salvarti. Stiamo per proporti un gioco che ti farà sentire come quando, a Santo Stefano, nel salotto di tua zia, stringi la mano a quel cugino di Treviso che nemmeno pensavi di avere.
+        </p>
+
+        <p class="description" data-aos="fade-down">
+          Sei pronto? Hai lavato le mani? Cominciamo!
+        </p>
       </section>
+
     <section class="card neumorphism-card-big">
-      {% include section-projects.html %}
+      <p class="description" data-aos="fade-down">
+        Ai sensi dell’ultimo D.P.C.M., solo un numero limitato di persone può avere accesso alla stanza-gioco.
+      </p>
+      <p class="description" data-aos="fade-down">
+        Riuscirai a trovare la tua parola d’ordine e ad intrufolarti prima che il limite sia raggiunto?
+      </p>
+
+      <div class="lock">
+        <form action="javascript:void(0);">
+          <input type="password" name="pwd" class="input-login-box" id="input-login-game">
+          <br>
+          <button type="button" id="login-button-game" class="input-login-button">Gioca!</button>
+        </form>
+      </div>
     </section>
+
     <section class="card neumorphism-card-big">
-      {% include section-friends.html %}
+      <p class="description centered" data-aos="fade-down">
+        Pensi di sapere da dove cominciare?
+      </p>
+      <br>
+      <br>
+
+      <div id="skills">
+        {% for friend in site.data.skills-friends %}
+        <div skill-type="language" data-aos="zoom-in">
+          <a href="login.html?user={{friend.name}}">
+            <img src="assets/img/avatar/{{friend.avatar}}" width="200px" height="200px">
+            <figcaption class="medium-caption">{{friend.name}}</figcaption>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
     </section>
   </div>
   {% include footer.html %}

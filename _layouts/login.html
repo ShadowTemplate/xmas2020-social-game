@@ -35,7 +35,22 @@
   {% include landing-page-game.html %}
   <div class="layout">
     <section class="card neumorphism-card-big">
-      {% include section-userlogin.html %}
+      <p class="description" data-aos="fade-down" id="welcome-message">
+        Ciao,
+      </p>
+
+      <p class="description" data-aos="fade-down">
+        Sappiamo che sei proprio tu, ma un numero spropositato di persone sta provando ad introfularsi in questo gioco e vorremmo essere sicuri di non essere multati.
+        Ti dispiacerebbe provarci la tua identità?
+      </p>
+
+      <div class="lock">
+        <form action="javascript:void(0);">
+          <input type="password" name="pwd" class="input-login-box" id="input-login-user">
+          <br>
+          <button type="button" id="login-button-user" class="input-login-button">Gioca!</button>
+        </form>
+      </div>
     </section>
   </div>
   {% include footer.html %}
