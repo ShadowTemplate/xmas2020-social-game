@@ -1,23 +1,27 @@
-- title: Andrea
-  date: 13 dicembre, 17:30
-  subtitle: Ha gli occhiali?
-  progress: 8%
-  tags:
-#    - tag: Sì.
-  timeline-side: right
+### RICORDARSI DI ALTERNARE RIGHT E LEFT ###
 
-- title: Maria Elena
-  date: 13 dicembre, 19:30
-  subtitle: Ha i capelli biondi?
-  progress: 70%
-  tags:
-#    - tag: No.
-  timeline-side: left
+### RICORDARSI DI TENERE COMMENTATI I TAG CON LA RISPOSTA ###
 
-- title: Sara
-  date: 14 dicembre, 8:30
-  subtitle: E' immaginario?
-  progress: 99%
-  tags:
-#      - tag: No.
-  timeline-side: right
+#- title: Andrea
+#  date: 13 dicembre, 17:30
+#  subtitle: Ha gli occhiali?
+#  progress: 8%
+#  tags:
+##    - tag: Sì.
+#  timeline-side: right
+#
+#- title: Maria Elena
+#  date: 13 dicembre, 19:30
+#  subtitle: Ha i capelli biondi?
+#  progress: 70%
+#  tags:
+##    - tag: No.
+#  timeline-side: left
+#
+#- title: Sara
+#  date: 14 dicembre, 8:30
+#  subtitle: E' immaginario?
+#  progress: 99%
+#  tags:
+##      - tag: No.
+#  timeline-side: right
