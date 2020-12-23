@@ -139,7 +139,7 @@ function getPrize(user) {
     // TODO CHECK MARIA ELENA
     switch(user) {
         case 'Stefano':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('vaccinazioni')
         case 'Maria Elena':
             return getHTMLPrize('todo')
         case 'Alessandra':
@@ -185,11 +185,26 @@ function getPrize(user) {
 
 function getHTMLPrize(prize) {
     switch(prize) {
-        case 'todo':
-            return '<strong>MAGIA</strong>'
-        case 'FOO':
+        case 'vaccinazioni':
+            return "donare 10 vaccinazioni pediatriche.<br><br>" +
+                "Il tuo aiuto si traduce in un gesto concreto che riduce le sofferenze e riporta la speranza.<br><br>" +
+                "Da parte di tutte le bambine e i bambini raggiunti da Medici con l'Africa Cuamm, grazie di cuore!<br><br>" +
+                "<img src='./assets/img/vaccinazioni.png'>"
+        case 'pallone':
             return ''
-        default:
-            return 'magimagia'
+        case 'albero':
+            return ''
+        case 'acqua':
+            return "donare a una famiglia un serbatoio con un filtro per depurare l’acqua.<br><br>" +
+                "Nelle situazioni di emergenza e nei paesi in cui le famiglie sono costrette a bere acqua contaminata, " +
+                "i serbatoi con filtri depuratori rappresentano una soluzione semplice e sicura per disporre di acqua potabile.<br><br>" +
+                "Da parte di tutte le bambine e i bambini raggiunti da Save the Children, grazie di cuore!<br><br>" +
+                "<a href='https://regalisolidali.savethechildren.it/cartolina/e95f8aa18a/' target='_blank'>" +
+                "<img src='https://static.savethechildren.it/media/catalog/product/cache/1/image/480x480/9df78eab33525d08d6e5fb8d27136e95/r/e/regalo-solidale-emergenze-filtri_per_l-acqua-3.jpg'>" +
+                "<br>" +
+                "Clicca qui per vedere la tua cartolina regalo!" +
+                "</a>"
+        case 'panettone':
+            return ''
     }
 }
