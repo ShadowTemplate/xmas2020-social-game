@@ -72,11 +72,11 @@ $(document).ready(function() {
 
         // Compare the current tiles with the areaKeys keys
         if (currentTilesString == Object.keys(areaKeys).toString()) {
-            heading.children[1].innerHTML = "You win!";
+            heading.children[1].innerHTML = "Vittoria! Torna alla <a href='/index.html'>home page</a>!";
             heading.style = `
                 animation: popIn .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
             `;
-            console.log('Redirect...');
+            alert("Congratulazioni! Adesso conosci la password per il gioco finale nella home page.\n\nTENTARE!");
         }
     };
 

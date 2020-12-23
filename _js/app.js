@@ -132,7 +132,7 @@ function randomizeOrder() {
 }
 
 function checkGamePassword() {
-  if($("input[name='pwd']").val().startsWith('welcomeby')) {
+  if($("input[name='pwd']").val().toLowerCase() === 'tentare!') {
     location.href = "game.html";
   } else {
     alert("Mi arrivano notizie che qualcuno vorrebbe preparare la festa di Natale.\nMandiamo i Carabinieri. Ma li mandiamo con i lanciafiamme.");

@@ -42,6 +42,7 @@ p {
   grid-gap: .5em;
   position: relative;
   overflow: hidden;
+  margin: auto;
 }
 
 .puzzle::after {
