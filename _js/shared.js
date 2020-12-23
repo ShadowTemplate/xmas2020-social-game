@@ -58,67 +58,119 @@ function getSong(user) {
   }
 }
 
-function getCurrentVerse(user) {
+
+function getGameSong() {
+  return [
+      "Ah, aha",
+      "Ooh, ohh",
+      "Ohh",
+      "Last Christmas, I gave you my heart",
+      "But the very next day, you gave it away",
+      "This year, to save me from tears",
+      "I'll give it to someone special",
+      "Last Christmas, I gave you my heart",
+      "But the very next day, you gave it away (you gave it away)",
+      "This year, to save me from tears",
+      "I'll give it to someone special (special)",
+      "Once bitten and twice shy",
+      "I keep my distance, but you still catch my eye",
+      "Tell me, baby, do you recognize me?",
+      "Well, it's been a year, it doesn't surprise me",
+      "'Merry Christmas' I wrapped it up and sent it",
+      "With a note saying, 'I love you', I meant it",
+      "Now I know what a fool I've been",
+      "But if you kissed me now, I know you'd fool me again",
+      "Last Christmas, I gave you my heart",
+      "But the very next day, you gave it away (you gave it away)",
+      "This year, to save me from tears",
+      "I'll give it to someone special (special)",
+      "Last Christmas, I gave you my heart",
+      "But the very next day, you gave it away",
+      "This year, to save me from tears",
+      "I'll give it to someone special (special, oh)",
+      "Oh, oh, baby",
+      "A crowded room, friends with tired eyes",
+      "I'm hiding from you and your soul of ice",
+      "My God, I thought you were someone to rely on",
+      "Me? I guess I was a shoulder to cry on",
+      "A face of a lover with a fire in his heart",
+      "A man under cover but you tore me apart",
+      "Ooh-hoo",
+      "Now I've found a real love, you'll never fool me again",
+      "Last Christmas, I gave you my heart",
+      "But the very next day, you gave it away (you gave it away)",
+      "This year, to save me from tears",
+      "I'll give it to someone special (special)",
+      "Last Christmas, I gave you my heart (I gave you my heart)",
+      "But the very next day, you gave it away (you gave me away)",
+      "This year, to save me from tears (Ohh)",
+      "I'll give it to someone special (special)",
+      "A face of a lover with a fire in his heart (I gave you my heart)",
+      "A man under cover but you tore him apart",
+      "Maybe next year",
+      "I'll give it to someone, I'll give it to someone special",
+      "Special...",
+      "Someone..."
+  ]
+}
+
+function getSongVerses(user) {
+    var indices = getCurrentVerseNumbers(user);
+    var song = getGameSong();
+    var highlightedSong = ''
+    for (i = 0; i < song.length; i++) {
+        if (indices.includes(i)) {
+            highlightedSong += '<mark>&nbsp;' + song[i] + '&nbsp;</mark><br>';
+        } else {
+            highlightedSong += song[i] + '<br>';
+        }
+    }
+    return highlightedSong
+}
+
+function getCurrentVerseNumbers(user) {
   // TODO CHECK MARIA ELENA
   switch(user) {
     case 'Stefano':
-      return 'Have yourself a merry little Christmas'
+      return [0, 1, 8]
     case 'Maria Elena':
-      return 'Last Christmas, I gave you my heart\n' +
-          'But the very next day, you gave it away (you gave it away)\n'
+      return [7, 8]
     case 'Alessandra':
-      return 'This year, to save me from tears\n' +
-          'I\'ll give it to someone special (special)\n'
+      return [9, 10]
     case 'Francesca':
-      return 'Tell me, baby, do you recognize me?\n' +
-          'Well, it\'s been a year, it doesn\'t surprise me\n'
+      return []
     case 'Marianna':
-      return 'Last Christmas, I gave you my heart\n' +
-          'But the very next day, you gave it away (you gave it away)\n'
+      return []
     case 'Alessia':
-      return 'Tell me, baby, do you recognize me?\n' +
-          'Well, it\'s been a year, it doesn\'t surprise me\n'
+      return []
     case 'Irene':
-      return 'Once bitten and twice shy\n' +
-          'I keep my distance, but you still catch my eye\n'
+      return []
     case 'Marta':
-      return 'A face of a lover with a fire in his heart (I gave you my heart)\n' +
-          'A man under cover but you tore him apart\n'
+      return []
     case 'Rosanna':
-      return 'Last Christmas, I gave you my heart\n' +
-          'But the very next day, you gave it away (you gave it away)\n'
+      return []
     case 'Roberto':
-      return 'Last Christmas, I gave you my heart\n' +
-          'But the very next day, you gave it away (you gave it away)\n'
+      return []
     case 'Arianna':
-      return 'This year, to save me from tears\n' +
-          'I\'ll give it to someone special (special)\n'
+      return []
     case 'Sciortino':
-      return 'A crowded room, friends with tired eyes\n' +
-          'I\'m hiding from you and your soul of ice\n'
+      return []
     case 'Carolina':
-      return 'Last Christmas, I gave you my heart\n' +
-          'But the very next day, you gave it away (you gave it away)\n'
+      return []
     case 'Giovanni':
-      return 'This year, to save me from tears\n' +
-          'I\'ll give it to someone special (special)\n'
+      return []
     case 'Tommaso':
-      return 'This year, to save me from tears\n' +
-          'I\'ll give it to someone special (special)\n'
+      return []
     case 'GabrieleD':
-      return 'My God, I thought you were someone to rely on\r\n' + 'Me? I guess I was a shoulder to cry on\n'
+      return []
     case 'Carlotta':
-      return 'My God, I thought you were someone to rely on\n' +
-          'Me? I guess I was a shoulder to cry on\n'
+      return []
     case 'Nicolò':
-      return 'A crowded room, friends with tired eyes\n' +
-          'I\'m hiding from you and your soul of ice\n'
+      return []
     case 'Miner':
-      return 'This year, to save me from tears\n' +
-          'I\'ll give it to someone special (special)\n'
+      return []
     case 'Valentino':
-      return 'This year, to save me from tears\n' +
-          'I\'ll give it to someone special (special)\n'
+      return []
     default:
       return 'Ops! Qualcosa non va. Per favore contattaci con un messaggio.'
   }
