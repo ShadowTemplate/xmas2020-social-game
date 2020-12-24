@@ -86,7 +86,7 @@ $(document).ready(function() {
 
         // Using the reduce function to run through all items in the array
         // Each item in the array is checked against everything before it
-        // This will return a new array with each intance of an item appearing before it's original predecessor
+        // This will return a new array with each instance of an item appearing before it's original predecessor
         return array.reduce((accumulator, current, index, array) => {
             return array
                 .slice(index)
@@ -100,9 +100,8 @@ $(document).ready(function() {
         }, []).length;
     };
 
-
     // Randomise tiles
-    const shuffledKeys = keys => Object.keys(keys).sort(() => .5 - .3);
+    const shuffledKeys = keys => Object.keys(keys).sort(() => .5 - Math.random());
 
     // Begin with our in order area keys
     let startingAreas = Object.keys(areaKeys);
@@ -115,9 +114,12 @@ $(document).ready(function() {
 
     // Use the inversion function to check if the keys will be solveable or not shuffled
     // Shuffle the keys until they are solvable
-    // while (inversionCount(startingAreas) % 2 == 1 || inversionCount(startingAreas) == 0) {
-    //     startingAreas = shuffledKeys(areaKeys);
-    // }
+    while (inversionCount(startingAreas) % 2 == 1 || inversionCount(startingAreas) == 0) {
+        startingAreas = shuffledKeys(areaKeys);
+    }
+
+    // QUICK FIX: ignore generated combination and hard-code nice shuffling
+    startingAreas = ["I", "H", "G", "F", "E", "D", "C", "B", "A"]
 
     // Apply shuffled areas
     tiles.map((tile, index) => {
