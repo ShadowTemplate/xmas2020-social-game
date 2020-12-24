@@ -216,7 +216,7 @@ function getHTMLPrize(prize) {
                 "<img src='./assets/img/palloni.png'>"
         case 'albero':
             return "piantare Meravigliao in Cameroon, un giovane albero di Cacao.<br><br>" +
-                "Un contadino lo pianterà nella sua terra. Cacao Meravigliao sarà fotografato, geolocalizzato ed avrà la sua pagina online dove seguirai la storia del progetto di cui farà parte.<br><br>" +
+                "Un contadino lo pianterà nella sua terra. Cacao Meravigliao sarà fotografato, geolocalizzato ed avrà la sua pagina online dove con la storia del progetto di cui farà parte.<br><br>" +
                 "Permetterà una interazione virtuosa tra diverse specie ed un uso sostenibile delle risorse e dei terreni.<br><br>" +
                 "Assorbirà CO2, emettendo ossigeno, favorendo la biodiversità e contrastando l’erosione del terreno.<br><br>" +
                 "Da parte delle comunità rurali raggiunte da Treedom, grazie di cuore!<br><br>" +
