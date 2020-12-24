@@ -11,10 +11,7 @@ function getCurrentSong() {
 }
 
 function getSong(user) {
-  // TODO CHECK MARIA ELENA
   switch(user) {
-    case 'Stefano':
-      return '1.mp3'
     case 'Maria Elena':
       return '3.mp3'
     case 'Alessandra':
@@ -27,7 +24,7 @@ function getSong(user) {
       return '1.mp3'
     case 'Irene':
       return '3.mp3'
-    case 'Marta':
+    case 'Martina':
       return '5.mp3'
     case 'Rosanna':
       return '5.mp3'
@@ -43,7 +40,7 @@ function getSong(user) {
       return '5.mp3'
     case 'Tommaso':
       return '1.mp3'
-    case 'GabrieleD':
+    case 'Gabriele':
       return '1.mp3'
     case 'Carlotta':
       return '5.mp3'
@@ -129,10 +126,7 @@ function getSongVerses(user) {
 }
 
 function getCurrentVerseNumbers(user) {
-  // TODO CHECK MARIA ELENA
   switch(user) {
-    case 'Stefano':
-      return [0, 1, 8]
     case 'Maria Elena':
       return [7, 8]
     case 'Alessandra':
@@ -145,7 +139,7 @@ function getCurrentVerseNumbers(user) {
       return [13, 14]
     case 'Irene':
       return [11, 12]
-    case 'Marta':
+    case 'Martina':
       return [44, 45]
     case 'Rosanna':
       return [36, 37]
@@ -161,7 +155,7 @@ function getCurrentVerseNumbers(user) {
       return [38, 39]
     case 'Tommaso':
       return [38, 39]
-    case 'GabrieleD':
+    case 'Gabriele':
       return [30, 31]
     case 'Carlotta':
       return [30, 31]

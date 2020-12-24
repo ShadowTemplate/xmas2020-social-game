@@ -138,10 +138,7 @@ $(document).ready(function() {
 });
 
 function getPrize(user) {
-    // TODO CHECK MARIA ELENA
     switch(user) {
-        case 'Stefano':
-            return getHTMLPrize('vaccinazioni')
         case 'Maria Elena':
             return getHTMLPrize('vaccinazioni')
         case 'Alessandra':
@@ -154,7 +151,7 @@ function getPrize(user) {
             return getHTMLPrize('pallone')
         case 'Irene':
             return getHTMLPrize('vaccinazioni')
-        case 'Marta':
+        case 'Martina':
             return getHTMLPrize('acqua')
         case 'Rosanna':
             return getHTMLPrize('vaccinazioni')
@@ -170,7 +167,7 @@ function getPrize(user) {
             return getHTMLPrize('albero')
         case 'Tommaso':
             return getHTMLPrize('panettone')
-        case 'GabrieleD':
+        case 'Gabriele':
             return getHTMLPrize('pallone')
         case 'Carlotta':
             return getHTMLPrize('acqua')

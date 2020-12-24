@@ -14,10 +14,7 @@ $(document).ready(function() {
 });
 
 function getPassword(user) {
-  // TODO CHECK MARIA ELENA
   switch(user) {
-    case 'Stefano':
-      return 'longo'
     case 'Maria Elena':
       return 'neuro'
     case 'Alessandra':
@@ -30,7 +27,7 @@ function getPassword(user) {
       return 'annaghj'
     case 'Irene':
       return 'unicorni'
-    case 'Marta':
+    case 'Martina':
       return 'madonna'
     case 'Rosanna':
       return 'mattone'
@@ -46,7 +43,7 @@ function getPassword(user) {
       return 'spinoza'
     case 'Tommaso':
       return 'oki'
-    case 'GabrieleD':
+    case 'Gabriele':
       return 'unipol'
     case 'Carlotta':
       return 'belin'
