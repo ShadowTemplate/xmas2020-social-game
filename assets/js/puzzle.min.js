@@ -139,6 +139,24 @@ $(document).ready(function() {
 
 function getPrize(user) {
     switch(user) {
+        case 'Mirco':
+            return getHTMLPrize('acqua')
+        case 'Stefano':
+            return getHTMLPrize('vaccinazioni')
+        case 'Gabripo':
+            return getHTMLPrize('panettone')
+        case 'Andrea':
+            return getHTMLPrize('pallone')
+        case 'Cara':
+            return getHTMLPrize('acqua')
+        case 'Eleonora':
+            return getHTMLPrize('albero')
+        case 'Sara':
+            return getHTMLPrize('vaccinazioni')
+        case 'Lorenzo':
+            return getHTMLPrize('panettone')
+        case 'Caterina':
+            return getHTMLPrize('albero')
         case 'Maria Elena':
             return getHTMLPrize('vaccinazioni')
         case 'Alessandra':
