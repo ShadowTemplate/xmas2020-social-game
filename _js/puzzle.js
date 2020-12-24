@@ -102,7 +102,7 @@ $(document).ready(function() {
 
 
     // Randomise tiles
-    const shuffledKeys = keys => Object.keys(keys).sort(() => .5 - Math.random());
+    const shuffledKeys = keys => Object.keys(keys).sort(() => .5 - .3);
 
     // Begin with our in order area keys
     let startingAreas = Object.keys(areaKeys);
@@ -115,9 +115,9 @@ $(document).ready(function() {
 
     // Use the inversion function to check if the keys will be solveable or not shuffled
     // Shuffle the keys until they are solvable
-    while (inversionCount(startingAreas) % 2 == 1 || inversionCount(startingAreas) == 0) {
-        startingAreas = shuffledKeys(areaKeys);
-    }
+    // while (inversionCount(startingAreas) % 2 == 1 || inversionCount(startingAreas) == 0) {
+    //     startingAreas = shuffledKeys(areaKeys);
+    // }
 
     // Apply shuffled areas
     tiles.map((tile, index) => {
@@ -179,7 +179,7 @@ function getPrize(user) {
         case 'Valentino':
             return getHTMLPrize('todo')
         default:
-            return getHTMLPrize('todo')
+            return getHTMLPrize('albero')
     }
 }
 
