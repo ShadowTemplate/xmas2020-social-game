@@ -138,39 +138,39 @@ function getCurrentVerseNumbers(user) {
     case 'Alessandra':
       return [9, 10]
     case 'Francesca':
-      return []
+      return [13, 14]
     case 'Marianna':
-      return []
+      return [36, 37]
     case 'Alessia':
-      return []
+      return [13, 14]
     case 'Irene':
-      return []
+      return [11, 12]
     case 'Marta':
-      return []
+      return [44, 45]
     case 'Rosanna':
-      return []
+      return [36, 37]
     case 'Roberto':
-      return []
+      return [19, 20]
     case 'Arianna':
-      return []
+      return [21, 22]
     case 'Sciortino':
-      return []
+      return [28, 29]
     case 'Carolina':
-      return []
+      return [36, 37]
     case 'Giovanni':
-      return []
+      return [38, 39]
     case 'Tommaso':
-      return []
+      return [38, 39]
     case 'GabrieleD':
-      return []
+      return [30, 31]
     case 'Carlotta':
-      return []
+      return [30, 31]
     case 'Nicolò':
-      return []
+      return [28, 29]
     case 'Miner':
-      return []
+      return [38, 39]
     case 'Valentino':
-      return []
+      return [38, 39]
     default:
       return 'Ops! Qualcosa non va. Per favore contattaci con un messaggio.'
   }
