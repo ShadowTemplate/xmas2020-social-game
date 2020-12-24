@@ -141,7 +141,7 @@ function getPrize(user) {
         case 'Stefano':
             return getHTMLPrize('vaccinazioni')
         case 'Maria Elena':
-            return getHTMLPrize('pallone')
+            return getHTMLPrize('vaccinazioni')
         case 'Alessandra':
             return getHTMLPrize('albero')
         case 'Francesca':
@@ -149,35 +149,35 @@ function getPrize(user) {
         case 'Marianna':
             return getHTMLPrize('panettone')
         case 'Alessia':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('pallone')
         case 'Irene':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('vaccinazioni')
         case 'Marta':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('acqua')
         case 'Rosanna':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('vaccinazioni')
         case 'Roberto':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('acqua')
         case 'Arianna':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('acqua')
         case 'Sciortino':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('albero')
         case 'Carolina':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('acqua')
         case 'Giovanni':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('albero')
         case 'Tommaso':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('panettone')
         case 'GabrieleD':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('pallone')
         case 'Carlotta':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('acqua')
         case 'Nicolò':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('panettone')
         case 'Miner':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('pallone')
         case 'Valentino':
-            return getHTMLPrize('todo')
+            return getHTMLPrize('pallone')
         default:
             return getHTMLPrize('albero')
     }
