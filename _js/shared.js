@@ -145,6 +145,24 @@ function getSongVerses(user) {
 
 function getCurrentVerseNumbers(user) {
   switch(user) {
+      case 'Mirco':
+          return [40, 41]
+      case 'Stefano':
+          return [5, 6]
+      case 'Gabripo':
+          return [42, 43]
+      case 'Andrea':
+          return [32, 33]
+      case 'Cara':
+          return [3, 4]
+      case 'Eleonora':
+          return [15, 16]
+      case 'Sara':
+          return [17, 18]
+      case 'Lorenzo':
+          return [23, 24]
+      case 'Caterina':
+          return [25, 26, 27, 34, 35]
     case 'Maria Elena':
       return [7, 8]
     case 'Alessandra':
