@@ -15,6 +15,24 @@ $(document).ready(function() {
 
 function getPassword(user) {
   switch(user) {
+    case 'Mirco':
+      return 'asphodel'
+    case 'Stefano':
+      return 'gauss'
+    case 'Gabripo':
+      return 'delver'
+    case 'Andrea':
+      return 'arca'
+    case 'Cara':
+      return 'latex'
+    case 'Eleonora':
+      return 'privacy'
+    case 'Sara':
+      return 'disinfettare1'
+    case 'Lorenzo':
+      return 'godafoss'
+    case 'Caterina':
+      return 'alfio'
     case 'Maria Elena':
       return 'neuro'
     case 'Alessandra':
