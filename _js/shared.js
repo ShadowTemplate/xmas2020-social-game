@@ -12,6 +12,24 @@ function getCurrentSong() {
 
 function getSong(user) {
   switch(user) {
+      case 'Mirco':
+          return '3.mp3'
+      case 'Stefano':
+          return '1.mp3'
+      case 'Gabripo':
+          return '2.mp3'
+      case 'Andrea':
+          return '4.mp3'
+      case 'Cara':
+          return '4.mp3'
+      case 'Eleonora':
+          return '5.mp3'
+      case 'Sara':
+          return '3.mp3'
+      case 'Lorenzo':
+          return '1.mp3'
+      case 'Caterina':
+          return '2.mp3'
     case 'Maria Elena':
       return '3.mp3'
     case 'Alessandra':
