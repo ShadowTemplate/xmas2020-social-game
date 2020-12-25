@@ -42,6 +42,14 @@
   #    - tag: No.
   timeline-side: right
 
+- title: Alessia
+  date: 25 dicembre, 21:50
+  subtitle: Ha più di 60 anni?
+  progress: 90%
+  tags:
+  #    - tag: No.
+  timeline-side: left
+
 #- title: Maria Elena
 #  date: 13 dicembre, 19:30
 #  subtitle: Ha i capelli biondi?

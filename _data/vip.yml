@@ -55,7 +55,7 @@
 
 - name: Cristiano Ronaldo
   picture: Cristiano Ronaldo.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Daniel Craig
@@ -70,7 +70,7 @@
 
 - name: David Beckham
   picture: David Beckham.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, biondi
 
 - name: Diego Abatantuono
@@ -130,7 +130,7 @@
 
 - name: Francesco Totti
   picture: Francesco Totti.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Fred Flintstone
@@ -165,7 +165,7 @@
 
 - name: Gordon Ramsay
   picture: Gordon Ramsay.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, biondi
 
 - name: Hulk Hogan
@@ -255,7 +255,7 @@
 
 - name: Lionel Messi
   picture: Lionel Messi.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Luciano Ligabue
@@ -285,7 +285,7 @@
 
 - name: Michael Schumacher
   picture: Michael Schumacher.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, biondi
 
 - name: Micheal Jackson
