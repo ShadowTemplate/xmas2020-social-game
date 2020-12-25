@@ -20,7 +20,7 @@
 
 - name: Barack Obama
   picture: Barack Obama.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Bart Simpson
@@ -30,12 +30,12 @@
 
 - name: Ben Affleck
   picture: Ben Affleck.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, brizzolati
 
 - name: Brad Pitt
   picture: Brad Pitt.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, biondi
 
 - name: Britney Spears
@@ -80,7 +80,7 @@
 
 - name: Donald Trump
   picture: Donald Trump.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, bianchi
 
 - name: Donkey Kong
@@ -95,7 +95,7 @@
 
 - name: Dwayne Johnson
   picture: Dwayne Johnson.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, nessuno
 
 - name: Ed Sheeran
@@ -155,12 +155,12 @@
 
 - name: George Bush
   picture: George Bush.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, bianchi
 
 - name: George Clooney
   picture: George Clooney.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, brizzolato
 
 - name: Gordon Ramsay
@@ -170,7 +170,7 @@
 
 - name: Hulk Hogan
   picture: Hulk Hogan.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, bianchi, occhiali
 
 - name: Jackie Chan
@@ -200,12 +200,12 @@
 
 - name: Joe Bastianich
   picture: Joe Bastianich.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, nessuno
 
 - name: Johnny Depp
   picture: Johnny Depp.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri, occhiali
 
 - name: Justin Bieber
@@ -250,7 +250,7 @@
 
 - name: Leonardo DiCaprio
   picture: Leonardo DiCaprio.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, biondi
 
 - name: Lionel Messi
@@ -275,12 +275,12 @@
 
 - name: Matt Damon
   picture: Matt Damon.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Michael Phelps
   picture: Michael Phelps.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Michael Schumacher
@@ -310,7 +310,7 @@
 
 - name: Neil Armstrong
   picture: Neil Armstrong.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, biondi
 
 - name: Nelson Mandela
@@ -335,7 +335,7 @@
 
 - name: Patrick Dempsey
   picture: Patrick Dempsey.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Paul McCartney
@@ -400,7 +400,7 @@
 
 - name: Steve Jobs
   picture: Steve Jobs.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, brizzolati
 
 - name: Taylor Swift
@@ -410,7 +410,7 @@
 
 - name: Tiger Woods
   picture: Tiger Woods.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Will Smith

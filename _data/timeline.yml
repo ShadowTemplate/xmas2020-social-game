@@ -26,6 +26,15 @@
   #    - tag: No.
   timeline-side: right
 
+- title: Lorenzo
+  date: 25 dicembre, 20:04
+  subtitle: È statunitense?
+  progress: 76%
+  tags:
+  #    - tag: No.
+  timeline-side: left
+
+
 #- title: Maria Elena
 #  date: 13 dicembre, 19:30
 #  subtitle: Ha i capelli biondi?
