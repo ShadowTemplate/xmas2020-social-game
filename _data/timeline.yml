@@ -2,13 +2,13 @@
 
 ### RICORDARSI DI TENERE COMMENTATI I TAG CON LA RISPOSTA ###
 
-#- title: Andrea
-#  date: 13 dicembre, 17:30
-#  subtitle: Ha gli occhiali?
-#  progress: 8%
-#  tags:
-##    - tag: Sì.
-#  timeline-side: right
+- title: Carolina
+  date: 25 dicembre, 16:30
+  subtitle: È immaginario?
+  progress: 11%
+  tags:
+#    - tag: No.
+  timeline-side: right
 #
 #- title: Maria Elena
 #  date: 13 dicembre, 19:30

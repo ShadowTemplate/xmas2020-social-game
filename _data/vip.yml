@@ -15,7 +15,7 @@
 
 - name: Babbo Natale
   picture: Babbo Natale.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, bianchi, im, occhiali
 
 - name: Barack Obama
@@ -25,7 +25,7 @@
 
 - name: Bart Simpson
   picture: Bart Simpson.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, nessuno, im
 
 - name: Ben Affleck
@@ -85,7 +85,7 @@
 
 - name: Donkey Kong
   picture: Donkey Kong.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, nessuno, im
 
 - name: Drake
@@ -135,17 +135,17 @@
 
 - name: Fred Flintstone
   picture: Fred Flintstone.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri, im
 
 - name: Frodo Baggins
   picture: Frodo Baggins.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri, im
 
 - name: Garfield
   picture: Garfield.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, nessuno, im
 
 - name: Garry Kasparov
@@ -225,7 +225,7 @@
 
 - name: Kevin
   picture: Kevin.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, biondi, im
 
 - name: Kim Kardashian
@@ -270,7 +270,7 @@
 
 - name: Mario
   picture: Mario.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri, im
 
 - name: Matt Damon
@@ -305,7 +305,7 @@
 
 - name: Mr Bean
   picture: Mr Bean.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri, im
 
 - name: Neil Armstrong
@@ -325,7 +325,7 @@
 
 - name: Oliver Hutton
   picture: Oliver Hutton.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri, im
 
 - name: Oprah Winfrey
