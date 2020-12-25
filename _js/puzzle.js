@@ -195,6 +195,8 @@ function getPrize(user) {
             return getHTMLPrize('pallone')
         case 'Valentino':
             return getHTMLPrize('pallone')
+        case 'Silvia':
+            return getHTMLPrize('panettone')
         default:
             return getHTMLPrize('albero')
     }

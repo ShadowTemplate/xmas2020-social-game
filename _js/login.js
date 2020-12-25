@@ -71,6 +71,8 @@ function getPassword(user) {
       return 'fatturare'
     case 'Valentino':
       return 'sonobello'
+    case 'Silvia':
+      return 'pizza'
     default:
       return 'magimagia'
   }

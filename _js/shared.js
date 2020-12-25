@@ -68,6 +68,8 @@ function getSong(user) {
       return '5.mp3'
     case 'Valentino':
       return '3.mp3'
+      case 'Silvia':
+          return '2.mp3'
     default:
       return 'Ops! Qualcosa non va. Per favore contattaci con un messaggio.'
   }
@@ -184,7 +186,7 @@ function getCurrentVerseNumbers(user) {
     case 'Arianna':
       return [21, 22]
     case 'Sciortino':
-      return [28, 29]
+      return [36, 37]
     case 'Carolina':
       return [36, 37]
     case 'Giovanni':
@@ -196,11 +198,13 @@ function getCurrentVerseNumbers(user) {
     case 'Carlotta':
       return [30, 31]
     case 'Nicolò':
-      return [28, 29]
+      return [38, 39]
     case 'Miner':
       return [38, 39]
     case 'Valentino':
       return [38, 39]
+      case 'Silvia':
+          return [28, 29]
     default:
       return 'Ops! Qualcosa non va. Per favore contattaci con un messaggio.'
   }
