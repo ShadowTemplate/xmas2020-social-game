@@ -72,7 +72,7 @@ $(document).ready(function() {
 
         // Compare the current tiles with the areaKeys keys
         if (currentTilesString == Object.keys(areaKeys).toString()) {
-            heading.children[1].innerHTML = "Vittoria! Torna alla <a href='/index.html'>home page</a>!";
+            heading.children[1].innerHTML = "Vittoria! Torna alla <a href='/xmas2020-social-game'>home page</a>!";
             heading.style = `
                 animation: popIn .3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
             `;
