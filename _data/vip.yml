@@ -60,12 +60,12 @@
 
 - name: Daniel Craig
   picture: Daniel Craig.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, biondi
 
 - name: Daniel Radcliffe
   picture: Daniel Radcliffe.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: David Beckham
@@ -75,7 +75,7 @@
 
 - name: Diego Abatantuono
   picture: Diego Abatantuono.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, brizzolati
 
 - name: Donald Trump
@@ -175,7 +175,7 @@
 
 - name: Jackie Chan
   picture: Jackie Chan.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Jennifer Aniston
@@ -190,7 +190,7 @@
 
 - name: Jim Carrey
   picture: Jim Carrey.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: J. K. Rowling
@@ -360,7 +360,7 @@
 
 - name: Robert Pattinson
   picture: Robert Pattinson.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, biondi
 
 - name: Roger Federer

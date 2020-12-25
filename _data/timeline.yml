@@ -34,6 +34,13 @@
   #    - tag: No.
   timeline-side: left
 
+- title: Stefano
+  date: 25 dicembre, 20:33
+  subtitle: È un attore?
+  progress: 83%
+  tags:
+  #    - tag: No.
+  timeline-side: right
 
 #- title: Maria Elena
 #  date: 13 dicembre, 19:30
