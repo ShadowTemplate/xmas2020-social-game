@@ -1,16 +1,16 @@
 - name: Adele
   picture: Adele.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, biondi
 
 - name: Amy Winehouse
   picture: Amy Winehouse.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, castani
 
 - name: Angelina Jolie
   picture: Angelina Jolie.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, castani
 
 - name: Babbo Natale
@@ -40,7 +40,7 @@
 
 - name: Britney Spears
   picture: Britney Spears.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, biondi
 
 - name: Chris Hadfield
@@ -105,7 +105,7 @@
 
 - name: Ellen DeGeneres
   picture: Ellen DeGeneres.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, biondi
 
 - name: Elton John
@@ -120,7 +120,7 @@
 
 - name: Emma Watson
   picture: Emma Watson.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, scuri
 
 - name: Fedez
@@ -180,12 +180,12 @@
 
 - name: Jennifer Aniston
   picture: Jennifer Aniston.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, biondi
 
 - name: Jennifer Lopez
   picture: Jennifer Lopez.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, scuri
 
 - name: Jim Carrey
@@ -195,7 +195,7 @@
 
 - name: J. K. Rowling
   picture: J. K. Rowling.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, biondi
 
 - name: Joe Bastianich
@@ -220,7 +220,7 @@
 
 - name: Katy Perry
   picture: Katy Perry.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, scuri
 
 - name: Kevin
@@ -230,7 +230,7 @@
 
 - name: Kim Kardashian
   picture: Kim Kardashian.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, scuri
 
 - name: Kurt Cobain
@@ -240,12 +240,12 @@
 
 - name: Kylie Jenner
   picture: Kylie Jenner.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, scuri
 
 - name: Lady Gaga
   picture: Lady Gaga.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, biondi
 
 - name: Leonardo DiCaprio
@@ -265,7 +265,7 @@
 
 - name: Madre Teresa
   picture: Madre Teresa.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, nessuno
 
 - name: Mario
@@ -330,7 +330,7 @@
 
 - name: Oprah Winfrey
   picture: Oprah Winfrey.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, scuri
 
 - name: Patrick Dempsey
@@ -345,17 +345,17 @@
 
 - name: P!nk
   picture: P!nk.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, biondi
 
 - name: Queen Elizabeth II
   picture: Queen Elizabeth II.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, bianchi
 
 - name: Rihanna
   picture: Rihanna.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, scuri
 
 - name: Robert Pattinson
@@ -375,17 +375,17 @@
 
 - name: Sasha Grey
   picture: Sasha Grey.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, scuri
 
 - name: Selena Gomez
   picture: Selena Gomez.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, scuri
 
 - name: Serena Williams
   picture: Serena Williams.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, scuri
 
 - name: Silvio Berlusconi
