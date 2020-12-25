@@ -15,7 +15,7 @@
   subtitle: È uomo?
   progress: 36%
   tags:
-#    - tag: No.
+#    - tag: Si.
   timeline-side: left
 
 - title: Tommaso
@@ -47,8 +47,16 @@
   subtitle: Ha più di 60 anni?
   progress: 90%
   tags:
-  #    - tag: No.
+  #    - tag: Si.
   timeline-side: left
+
+- title: Rosanna
+  date: 25 dicembre, 22:00
+  subtitle: Ha partecipato a serie TV famose?
+  progress: 90%
+  tags:
+  #    - tag: No.
+  timeline-side: right
 
 #- title: Maria Elena
 #  date: 13 dicembre, 19:30
