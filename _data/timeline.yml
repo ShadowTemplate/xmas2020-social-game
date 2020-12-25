@@ -18,6 +18,14 @@
 #    - tag: No.
   timeline-side: left
 
+- title: Tommaso
+  date: 25 dicembre, 17:17
+  subtitle: È un cantante?
+  progress: 56%
+  tags:
+  #    - tag: No.
+  timeline-side: right
+
 #- title: Maria Elena
 #  date: 13 dicembre, 19:30
 #  subtitle: Ha i capelli biondi?

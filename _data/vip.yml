@@ -50,7 +50,7 @@
 
 - name: Claudio Baglioni
   picture: Claudio Baglioni.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, bianchi
 
 - name: Cristiano Ronaldo
@@ -90,7 +90,7 @@
 
 - name: Drake
   picture: Drake.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Dwayne Johnson
@@ -100,7 +100,7 @@
 
 - name: Ed Sheeran
   picture: Ed Sheeran.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, rossi
 
 - name: Ellen DeGeneres
@@ -110,12 +110,12 @@
 
 - name: Elton John
   picture: Elton John.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, rossi, occhiali
 
 - name: Eminem
   picture: Eminem.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, nessuno, occhiali
 
 - name: Emma Watson
@@ -125,7 +125,7 @@
 
 - name: Fedez
   picture: Fedez.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Francesco Totti
@@ -210,12 +210,12 @@
 
 - name: Justin Bieber
   picture: Justin Bieber.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Kanye West
   picture: Kanye West.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri, occhiali
 
 - name: Katy Perry
@@ -235,7 +235,7 @@
 
 - name: Kurt Cobain
   picture: Kurt Cobain.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, biondi
 
 - name: Kylie Jenner
@@ -260,7 +260,7 @@
 
 - name: Luciano Ligabue
   picture: Luciano Ligabue.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Madre Teresa
@@ -290,17 +290,17 @@
 
 - name: Micheal Jackson
   picture: Micheal Jackson.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Mick Jagger
   picture: Mick Jagger.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Mika
   picture: Mika.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Mr Bean
@@ -320,7 +320,7 @@
 
 - name: Nick Jonas
   picture: Nick Jonas.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Oliver Hutton
@@ -340,7 +340,7 @@
 
 - name: Paul McCartney
   picture: Paul McCartney.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, rossi
 
 - name: P!nk
@@ -405,7 +405,7 @@
 
 - name: Taylor Swift
   picture: Taylor Swift.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: F, biondi
 
 - name: Tiger Woods
@@ -415,7 +415,7 @@
 
 - name: Will Smith
   picture: Will Smith.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Zinedine Zidane
