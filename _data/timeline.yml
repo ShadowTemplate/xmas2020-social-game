@@ -58,13 +58,23 @@
   #    - tag: No.
   timeline-side: right
 
+- title: Sara
+  date: 26 dicembre, 16:27
+  subtitle: Ha gli occhi chiari?
+  progress: 96%
+  tags:
+  #    - tag: Si.
+  timeline-side: left
+
 - title: Francesca
   date: 26 dicembre, 17:15
   subtitle: Indossa vestiti rossi?
-  progress: 90%
+  progress: 96%
   tags:
   #    - tag: No.
-  timeline-side: left
+  timeline-side: right
+
+
 
 #- title: Maria Elena
 #  date: 13 dicembre, 19:30

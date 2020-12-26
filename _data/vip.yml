@@ -150,7 +150,7 @@
 
 - name: Garry Kasparov
   picture: Garry Kasparov.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: George Bush
@@ -315,7 +315,7 @@
 
 - name: Nelson Mandela
   picture: Nelson Mandela.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, brizzolati
 
 - name: Nick Jonas
@@ -365,7 +365,7 @@
 
 - name: Roger Federer
   picture: Roger Federer.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Salvador Dali'
@@ -390,12 +390,12 @@
 
 - name: Silvio Berlusconi
   picture: Silvio Berlusconi.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, scuri
 
 - name: Simon Cowell
   picture: Simon Cowell.jpg
-  class: vip-show
+  class: vip-hide
 # TAG: M, brizzolati
 
 - name: Steve Jobs
