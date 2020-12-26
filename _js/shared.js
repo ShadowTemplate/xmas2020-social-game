@@ -172,7 +172,7 @@ function getCurrentVerseNumbers(user) {
     case 'Francesca':
       return [13, 14]
     case 'Marianna':
-      return [36, 37]
+      return [28, 29]
     case 'Alessia':
       return [13, 14]
     case 'Irene':
