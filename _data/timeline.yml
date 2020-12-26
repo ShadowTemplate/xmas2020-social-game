@@ -74,20 +74,10 @@
   #    - tag: No.
   timeline-side: right
 
-
-
-#- title: Maria Elena
-#  date: 13 dicembre, 19:30
-#  subtitle: Ha i capelli biondi?
-#  progress: 70%
-#  tags:
-##    - tag: No.
-#  timeline-side: left
-#
-#- title: Sara
-#  date: 14 dicembre, 8:30
-#  subtitle: E' immaginario?
-#  progress: 99%
-#  tags:
-##      - tag: No.
-#  timeline-side: right
+- title: Miner
+  date: 26 dicembre, 19:15
+  subtitle: È un politico?
+  progress: 96%
+  tags:
+  #    - tag: No.
+  timeline-side: left
