@@ -168,7 +168,7 @@ function getCurrentVerseNumbers(user) {
     case 'Maria Elena':
       return [7, 8]
     case 'Alessandra':
-      return [9, 10]
+      return [30, 31]
     case 'Francesca':
       return [13, 14]
     case 'Marianna':
