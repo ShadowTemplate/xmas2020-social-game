@@ -108,8 +108,16 @@
 
 - title: Gabripo
   date: 29 dicembre, 12:15
-  subtitle: È apparso in una puntata dei Griffin dove Peter ha i capelli bianchi??
+  subtitle: È apparso in una puntata dei Griffin dove Peter ha i capelli bianchi?
   progress: 96%
   tags:
   #    - tag: No.
   timeline-side: left
+
+- title: Cara
+  date: 31 dicembre, 16:45
+  subtitle: È tra gli attori di Ocean's eleven?
+  progress: 96%
+  tags:
+  #    - tag: No.
+  timeline-side: right
