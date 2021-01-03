@@ -1,424 +1,341 @@
 - name: Adele
   picture: Adele.jpg
   class: vip-hide
-# TAG: F, biondi
 
 - name: Amy Winehouse
   picture: Amy Winehouse.jpg
   class: vip-hide
-# TAG: F, castani
 
 - name: Angelina Jolie
   picture: Angelina Jolie.jpg
   class: vip-hide
-# TAG: F, castani
 
 - name: Babbo Natale
   picture: Babbo Natale.jpg
   class: vip-hide
-# TAG: M, bianchi, im, occhiali
 
 - name: Barack Obama
   picture: Barack Obama.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Bart Simpson
   picture: Bart Simpson.jpg
   class: vip-hide
-# TAG: M, nessuno, im
 
 - name: Ben Affleck
   picture: Ben Affleck.jpg
   class: vip-hide
-# TAG: M, brizzolati
 
 - name: Brad Pitt
   picture: Brad Pitt.jpg
   class: vip-hide
-# TAG: M, biondi
 
 - name: Britney Spears
   picture: Britney Spears.jpg
   class: vip-hide
-# TAG: F, biondi
 
 - name: Chris Hadfield
   picture: Chris Hadfield.jpg
   class: vip-show
-# TAG: M, scuri
+  link: https://youtu.be/Icx8VHOXTLw
 
 - name: Claudio Baglioni
   picture: Claudio Baglioni.jpg
   class: vip-hide
-# TAG: M, bianchi
 
 - name: Cristiano Ronaldo
   picture: Cristiano Ronaldo.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Daniel Craig
   picture: Daniel Craig.jpg
   class: vip-hide
-# TAG: M, biondi
 
 - name: Daniel Radcliffe
   picture: Daniel Radcliffe.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: David Beckham
   picture: David Beckham.jpg
   class: vip-hide
-# TAG: M, biondi
 
 - name: Diego Abatantuono
   picture: Diego Abatantuono.jpg
   class: vip-hide
-# TAG: M, brizzolati
 
 - name: Donald Trump
   picture: Donald Trump.jpg
   class: vip-hide
-# TAG: M, bianchi
 
 - name: Donkey Kong
   picture: Donkey Kong.jpg
   class: vip-hide
-# TAG: M, nessuno, im
 
 - name: Drake
   picture: Drake.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Dwayne Johnson
   picture: Dwayne Johnson.jpg
   class: vip-hide
-# TAG: M, nessuno
 
 - name: Ed Sheeran
   picture: Ed Sheeran.jpg
   class: vip-hide
-# TAG: M, rossi
 
 - name: Ellen DeGeneres
   picture: Ellen DeGeneres.jpg
   class: vip-hide
-# TAG: F, biondi
 
 - name: Elton John
   picture: Elton John.jpg
   class: vip-hide
-# TAG: M, rossi, occhiali
 
 - name: Eminem
   picture: Eminem.jpg
   class: vip-hide
-# TAG: M, nessuno, occhiali
 
 - name: Emma Watson
   picture: Emma Watson.jpg
   class: vip-hide
-# TAG: F, scuri
 
 - name: Fedez
   picture: Fedez.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Francesco Totti
   picture: Francesco Totti.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Fred Flintstone
   picture: Fred Flintstone.jpg
   class: vip-hide
-# TAG: M, scuri, im
 
 - name: Frodo Baggins
   picture: Frodo Baggins.jpg
   class: vip-hide
-# TAG: M, scuri, im
 
 - name: Garfield
   picture: Garfield.jpg
   class: vip-hide
-# TAG: M, nessuno, im
 
 - name: Garry Kasparov
   picture: Garry Kasparov.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: George Bush
   picture: George Bush.jpg
   class: vip-hide
-# TAG: M, bianchi
 
 - name: George Clooney
   picture: George Clooney.jpg
   class: vip-hide
-# TAG: M, brizzolato
 
 - name: Gordon Ramsay
   picture: Gordon Ramsay.jpg
   class: vip-hide
-# TAG: M, biondi
 
 - name: Hulk Hogan
   picture: Hulk Hogan.jpg
   class: vip-hide
-# TAG: M, bianchi, occhiali
 
 - name: Jackie Chan
   picture: Jackie Chan.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Jennifer Aniston
   picture: Jennifer Aniston.jpg
   class: vip-hide
-# TAG: F, biondi
 
 - name: Jennifer Lopez
   picture: Jennifer Lopez.jpg
   class: vip-hide
-# TAG: F, scuri
 
 - name: Jim Carrey
   picture: Jim Carrey.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: J. K. Rowling
   picture: J. K. Rowling.jpg
   class: vip-hide
-# TAG: F, biondi
 
 - name: Joe Bastianich
   picture: Joe Bastianich.jpg
   class: vip-hide
-# TAG: M, nessuno
 
 - name: Johnny Depp
   picture: Johnny Depp.jpg
   class: vip-hide
-# TAG: M, scuri, occhiali
 
 - name: Justin Bieber
   picture: Justin Bieber.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Kanye West
   picture: Kanye West.jpg
   class: vip-hide
-# TAG: M, scuri, occhiali
 
 - name: Katy Perry
   picture: Katy Perry.jpg
   class: vip-hide
-# TAG: F, scuri
 
 - name: Kevin
   picture: Kevin.jpg
   class: vip-hide
-# TAG: M, biondi, im
 
 - name: Kim Kardashian
   picture: Kim Kardashian.jpg
   class: vip-hide
-# TAG: F, scuri
 
 - name: Kurt Cobain
   picture: Kurt Cobain.jpg
   class: vip-hide
-# TAG: M, biondi
 
 - name: Kylie Jenner
   picture: Kylie Jenner.jpg
   class: vip-hide
-# TAG: F, scuri
 
 - name: Lady Gaga
   picture: Lady Gaga.jpg
   class: vip-hide
-# TAG: F, biondi
 
 - name: Leonardo DiCaprio
   picture: Leonardo DiCaprio.jpg
   class: vip-hide
-# TAG: M, biondi
 
 - name: Lionel Messi
   picture: Lionel Messi.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Luciano Ligabue
   picture: Luciano Ligabue.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Madre Teresa
   picture: Madre Teresa.jpg
   class: vip-hide
-# TAG: F, nessuno
 
 - name: Mario
   picture: Mario.jpg
   class: vip-hide
-# TAG: M, scuri, im
 
 - name: Matt Damon
   picture: Matt Damon.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Michael Phelps
   picture: Michael Phelps.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Michael Schumacher
   picture: Michael Schumacher.jpg
   class: vip-hide
-# TAG: M, biondi
 
 - name: Micheal Jackson
   picture: Micheal Jackson.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Mick Jagger
   picture: Mick Jagger.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Mika
   picture: Mika.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Mr Bean
   picture: Mr Bean.jpg
   class: vip-hide
-# TAG: M, scuri, im
 
 - name: Neil Armstrong
   picture: Neil Armstrong.jpg
   class: vip-hide
-# TAG: M, biondi
 
 - name: Nelson Mandela
   picture: Nelson Mandela.jpg
   class: vip-hide
-# TAG: M, brizzolati
 
 - name: Nick Jonas
   picture: Nick Jonas.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Oliver Hutton
   picture: Oliver Hutton.jpg
   class: vip-hide
-# TAG: M, scuri, im
 
 - name: Oprah Winfrey
   picture: Oprah Winfrey.jpg
   class: vip-hide
-# TAG: F, scuri
 
 - name: Patrick Dempsey
   picture: Patrick Dempsey.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Paul McCartney
   picture: Paul McCartney.jpg
   class: vip-hide
-# TAG: M, rossi
 
 - name: P!nk
   picture: P!nk.jpg
   class: vip-hide
-# TAG: F, biondi
 
 - name: Queen Elizabeth II
   picture: Queen Elizabeth II.jpg
   class: vip-hide
-# TAG: F, bianchi
 
 - name: Rihanna
   picture: Rihanna.jpg
   class: vip-hide
-# TAG: F, scuri
 
 - name: Robert Pattinson
   picture: Robert Pattinson.jpg
   class: vip-hide
-# TAG: M, biondi
 
 - name: Roger Federer
   picture: Roger Federer.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Salvador Dali'
   picture: Salvador Dali'.jpg
   class: vip-show
-# TAG: M, scuri
+  link: end.html
 
 - name: Sasha Grey
   picture: Sasha Grey.jpg
   class: vip-hide
-# TAG: F, scuri
 
 - name: Selena Gomez
   picture: Selena Gomez.jpg
   class: vip-hide
-# TAG: F, scuri
 
 - name: Serena Williams
   picture: Serena Williams.jpg
   class: vip-hide
-# TAG: F, scuri
 
 - name: Silvio Berlusconi
   picture: Silvio Berlusconi.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Simon Cowell
   picture: Simon Cowell.jpg
   class: vip-hide
-# TAG: M, brizzolati
 
 - name: Steve Jobs
   picture: Steve Jobs.jpg
   class: vip-hide
-# TAG: M, brizzolati
 
 - name: Taylor Swift
   picture: Taylor Swift.jpg
   class: vip-hide
-# TAG: F, biondi
 
 - name: Tiger Woods
   picture: Tiger Woods.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Will Smith
   picture: Will Smith.jpg
   class: vip-hide
-# TAG: M, scuri
 
 - name: Zinedine Zidane
   picture: Zinedine Zidane.jpg
-  class: vip-show
-# TAG: M, scuri
+  class: vip-hide

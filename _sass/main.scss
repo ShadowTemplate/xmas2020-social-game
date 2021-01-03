@@ -1012,4 +1012,9 @@ a {
 
 .vip-hide {
   //filter: brightness(15%);
+  visibility: collapse;
+}
+
+.neo-image {
+  padding: 1rem !important;
 }

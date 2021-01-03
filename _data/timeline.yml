@@ -1,13 +1,9 @@
-### RICORDARSI DI ALTERNARE RIGHT E LEFT ###
-
-### RICORDARSI DI TENERE COMMENTATI I TAG CON LA RISPOSTA ###
-
 - title: Carolina
   date: 25 dicembre, 16:30
   subtitle: È immaginario?
   progress: 11%
   tags:
-#    - tag: No.
+    - tag: No.
   timeline-side: right
 
 - title: Maria Elena
@@ -15,7 +11,7 @@
   subtitle: È uomo?
   progress: 36%
   tags:
-#    - tag: Si.
+    - tag: Sì.
   timeline-side: left
 
 - title: Tommaso
@@ -23,7 +19,7 @@
   subtitle: È un cantante?
   progress: 56%
   tags:
-  #    - tag: No.
+      - tag: No.
   timeline-side: right
 
 - title: Lorenzo
@@ -31,7 +27,7 @@
   subtitle: È statunitense?
   progress: 76%
   tags:
-  #    - tag: No.
+      - tag: No.
   timeline-side: left
 
 - title: Stefano
@@ -39,7 +35,7 @@
   subtitle: È un attore?
   progress: 83%
   tags:
-  #    - tag: No.
+      - tag: No.
   timeline-side: right
 
 - title: Alessia
@@ -47,7 +43,7 @@
   subtitle: Ha più di 60 anni?
   progress: 90%
   tags:
-  #    - tag: Si.
+      - tag: Sì.
   timeline-side: left
 
 - title: Rosanna
@@ -55,7 +51,7 @@
   subtitle: Ha partecipato a serie TV famose?
   progress: 90%
   tags:
-  #    - tag: No.
+      - tag: No.
   timeline-side: right
 
 - title: Sara
@@ -63,7 +59,7 @@
   subtitle: Ha gli occhi chiari?
   progress: 96%
   tags:
-  #    - tag: Si.
+      - tag: Sì.
   timeline-side: left
 
 - title: Francesca
@@ -71,7 +67,7 @@
   subtitle: Indossa vestiti rossi?
   progress: 96%
   tags:
-  #    - tag: No.
+      - tag: No.
   timeline-side: right
 
 - title: Miner
@@ -79,7 +75,7 @@
   subtitle: È un politico?
   progress: 96%
   tags:
-  #    - tag: No.
+      - tag: No.
   timeline-side: left
 
 - title: Caterina
@@ -87,7 +83,7 @@
   subtitle: Ha i capelli biondi?
   progress: 96%
   tags:
-  #    - tag: No.
+      - tag: No.
   timeline-side: right
 
 - title: Martina
@@ -95,7 +91,7 @@
   subtitle: Ha mai pensato di iniettarsi siringhe di disinfettante?
   progress: 96%
   tags:
-  #    - tag: No.
+      - tag: No.
   timeline-side: left
 
 - title: Arianna
@@ -103,7 +99,7 @@
   subtitle: Fra poco dovrà traslocare?
   progress: 96%
   tags:
-  #    - tag: No.
+      - tag: No.
   timeline-side: right
 
 - title: Gabripo
@@ -111,7 +107,7 @@
   subtitle: È apparso in una puntata dei Griffin dove Peter ha i capelli bianchi?
   progress: 96%
   tags:
-  #    - tag: No.
+      - tag: No.
   timeline-side: left
 
 - title: Cara
@@ -119,5 +115,5 @@
   subtitle: È tra gli attori di Ocean's eleven?
   progress: 96%
   tags:
-  #    - tag: No.
+      - tag: No.
   timeline-side: right
