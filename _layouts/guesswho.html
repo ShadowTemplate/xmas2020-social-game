@@ -34,11 +34,9 @@
   <div class="layout">
       <section class="card neumorphism-card-big">
         <p class="description" data-aos="fade-down">
-          Uno di questi personaggi custodisce il segreto di questo strano Natale.
-        </p>
-
-        <p class="description" data-aos="fade-down">
-          Riuscirete, tutti insieme, a scoprire chi?
+          Sono rimasti solo 2 personaggi famosi. Chi custodisce il segreto di questo strano Natale?
+          <br>
+          Clicca su quello giusto per scoprirlo!
         </p>
       </section>
 
@@ -49,24 +47,24 @@
         <div id="skills">
           {% for vip in site.data.vip %}
           <div skill-type="language" data-aos="zoom-in" class="{{vip.class}}">
-            <img src="assets/img/GuessWho/{{vip.picture}}" width="150px" height="200px">
+            <a href="{{vip.link}}"><img src="assets/img/GuessWho/{{vip.picture}}" width="150px" height="200px"></a>
             <figcaption class="small-caption">{{vip.name}}</figcaption>
           </div>
           {% endfor %}
         </div>
       </section>
 
-    <section class="card neumorphism-card-big">
-      <h1 class="title">Regolamento</h1>
-      <p class="description" data-aos="fade-down">
-        Ognuno di voi può porre una domanda per contribuire alla risoluzione del gioco.
-        <br>
-        Qui sotto, puoi vedere le domande fatte dai giocatori che hanno già collaborato alla caccia: di ogni domanda, non puoi vedere la risposta, ma solo quanto vi ha avvicinato alla soluzione.
-        In altre parole, la vostra probabilità di indovinare il personaggio alla fine del gioco (100% significa che indovinerete sicuramente).
-      <br>
-        Inviaci la tua domanda (via WhatsApp o Telegram): guarda cosa hanno chiesto gli altri e rifletti a fondo, ogni contributo può essere fondamentale!
-      </p>
-    </section>
+<!--    <section class="card neumorphism-card-big">-->
+<!--      <h1 class="title">Regolamento</h1>-->
+<!--      <p class="description" data-aos="fade-down">-->
+<!--        Ognuno di voi può porre una domanda per contribuire alla risoluzione del gioco.-->
+<!--        <br>-->
+<!--        Qui sotto, puoi vedere le domande fatte dai giocatori che hanno già collaborato alla caccia: di ogni domanda, non puoi vedere la risposta, ma solo quanto vi ha avvicinato alla soluzione.-->
+<!--        In altre parole, la vostra probabilità di indovinare il personaggio alla fine del gioco (100% significa che indovinerete sicuramente).-->
+<!--      <br>-->
+<!--        Inviaci la tua domanda (via WhatsApp o Telegram): guarda cosa hanno chiesto gli altri e rifletti a fondo, ogni contributo può essere fondamentale!-->
+<!--      </p>-->
+<!--    </section>-->
 
       <section class="card neumorphism-card-big">
         {% include section-timeline.html %}
